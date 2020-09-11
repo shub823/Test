@@ -1,0 +1,9 @@
+<h1>Welcome To Recharge Portal</h1>
+<div>
+    <form [formGroup]="rechargeForm">
+        Phone Number: <input formControlName="number" type="number"><br>
+        Amount: <input formControlName="amount" type="number"><br>
+        <button (click)="onRechargeClick()" type="button">Rechareg</button><br>
+        <a [routerLink]="['/login']">Click here to Recharge another number!</a>
+    </form>
+</div>

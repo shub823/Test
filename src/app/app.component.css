@@ -1,0 +1,11 @@
+.account{
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border-style:solid;
+    border-color: rgb(197, 190, 183);
+    border-width: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 1%;
+}

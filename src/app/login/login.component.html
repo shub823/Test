@@ -1,0 +1,11 @@
+<body>
+<div class='card' align='center'>
+    <!-- bind login form with html form element -->
+        <form [formGroup]="loginForm"> 
+        Phone Number: <input formControlName="recnumber" type="text"><br>
+        Password: <input formControlName="pasword" type="password"><br>
+        <button (click)="onLoginClick()" type="button">Login</button><br>
+        <a [routerLink]="['/register']">Dont have account sign up here</a> 
+    </form>
+</div>
+</body>

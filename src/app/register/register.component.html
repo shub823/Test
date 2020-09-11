@@ -1,0 +1,10 @@
+<div>
+    <form [formGroup]="registrationForm">
+        Name: <input formControlName="userName" type="text"><br>
+        Phone Number: <input formControlName="number" type="number"><br>
+        Password: <input formControlName="password" type="password"><br>
+        Confirm Password: <input type="password"><br>
+        <button (click)="onRegisterClick()" type="button">Register</button><br>
+        <a [routerLink]="['/login']">Click here to Login!</a>
+    </form>
+</div>
